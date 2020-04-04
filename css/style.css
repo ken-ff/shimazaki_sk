@@ -1,0 +1,484 @@
+@@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+}
+.logo {
+  width: 200px;
+}
+.main-nav {
+  font-family: 'Noto Serif JP';
+  display: flex;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  list-style: none;
+  padding-right: 20px;
+}
+.main-nav li {
+  margin-left: 36px;
+  text-align: right;
+}
+ul {
+  text-align: right;
+  width: auto;
+  padding-left: 105px;
+}
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: rgb(154, 205, 50);
+}
+.adress {
+  font-family: 'Noto Serif JP';
+  font-size: 1rem;
+  float:right;
+  color: #fff;
+  padding-right: 20px;
+}
+span {
+  font-size: 1.55rem;
+}
+.page-header {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(95, 56, 48, 0.7);
+}
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto
+  padding: 0 4%;
+  font-family: 'Noto Serif JP';
+}
+.home-content {
+  text-align:center;
+  color: #fff;
+}
+.home-content p {
+  font-size: 1.125rem;
+  margin: 0 0 42px 0;
+  text-align: center;
+}
+/*見出し*/
+.page-tittle {
+  font-family: 'Noto Serif JP';
+  font-size: 5rem;
+  font-weight: normal;
+  padding-top: 250px;
+}
+.big-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.every {
+  margin: 100px 0 0 800px;
+  padding: 10px;
+  height: 0 auto;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Noto Serif JP';
+}
+.every span {
+  fontsize: 10px;
+}
+#home {
+  background-image: url(/Users/maruhou/Desktop/html.2/images/IMG_9056.jpg);
+  height: 100vh;
+  background-blend-mode: darken;
+}
+#home .page-tittle {
+  text-transform: none;
+}
+#news {
+  background-image: url(/Users/maruhou/Desktop/html.2/images/IMG_8975.jpg);
+  height: 100vh;
+  margin-bottom: 150px;
+  font-family: 'Noto Serif JP';
+}
+#news .page-title {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  padding-top: 300px;
+}
+main {
+  padding: 0 30px;
+}
+.line1 {
+  text-align: center;
+  font-family: 'Noto Serif JP';
+  font-size: 30px;
+  border-bottom: 1px solid #87888e;
+  height: 900px;
+  border-top: none;
+  background-color: transparent;
+}
+.mess span {
+  border-bottom: 5px dotted #a6ce39;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.image1 {
+  height: auto;
+  max-width: 30%;
+  padding: 50px 0 20px 0;
+}
+.item img {
+  height: auto;
+  max-width: 100%;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.item2 img {
+  height: auto;
+  max-width: 100%;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.line1 p {
+  text-align: left;
+  font-family: 'Noto Serif JP';
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+h4 {
+ text-align: center;
+ font-family: 'Noto Serif JP';
+ font-size: 35px;
+ padding-top: 100px;
+}
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(3,minmax(240px,1fr));
+  margin-bottom: 50px;
+  border-bottom: 1px solid #87888e;
+  padding-bottom: 100px;
+}
+dt {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-family: 'Noto Serif JP';
+}
+dd {
+  display: block;
+  font-family: 'Noto Serif JP';
+}
+.toku span {
+  border-bottom: 5px dotted #a6ce39;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+h5 {
+ text-align: center;
+ font-family: 'Noto Serif JP';
+ font-size: 35px;
+ padding-top: 30px;
+}
+.point {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  margin-bottom: 5px;
+  padding-bottom: 100px;
+}
+footer {
+  background: #432;
+  text-align: center;
+  padding: 5px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.775rem;
+}
+#visit {
+  background-image: url(/Users/maruhou/Desktop/html.2/images/IMG_8965.jpg);
+  min-height: 100vh;
+}
+.page-title {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  padding-top: 300px;
+  font-family: 'Noto Serif JP';
+  font-weight: normal;
+}
+#visit .image1 {
+  height: auto;
+  max-width: 30%;
+  padding: 0;
+}
+.flow {
+  border: none;
+  text-align: center;
+  font-family: 'Noto Serif JP';
+  background-color: transparent;
+}
+.arrow {
+  position: relative;
+  display: inline-block;
+
+}
+.arrow::before{
+  content: '';
+  width: 60px;
+  height: 60px;
+  border: 0px;
+  border-right: solid 2px #a6ce39;
+  border-bottom: solid 2px #a6ce39;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px;
+}
+.come {
+  padding: 100px 0 50px 0;
+  font-size: 20px;
+}
+.flow {
+  padding-bottom: 50px;
+}
+.flow span {
+  border-bottom: 5px dotted #a6ce39;
+  font-size: 30px;
+}
+.flow h2 {
+  margin: 50px 0 0 0;
+}
+.flow p {
+  padding: 0 0 10px 0;
+}
+.flow .come {
+  padding: 50px 0 0 0;
+}
+/*contact*/
+#contact {
+  background-image: url(/Users/maruhou/Desktop/html.2/images/IMG_8960.jpg);
+  min-height: 100vh;
+}
+/*フォーム*/
+form {
+  background-color: #343;
+}
+form div {
+  margin-bottom: 14px;
+}
+label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+/*地図*/
+#location {
+
+}
+#location .lo-wrapper {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  border-top: 5px solid #432;
+  height: 605px;
+  background-color: rgb(255, 248, 220);
+}
+.lo-wrapper{
+}
+.location-info {
+  width: 48%;
+  padding: 20px 0 30px 70px;
+}
+.sub-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.location-info p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.location-info span {
+  font-size: 30px;
+}
+.name {
+  font-family: 'Noto Serif JP';
+  font-size: 20px;
+}
+.location-map {
+  height: 100%;
+  width: 100%;
+  padding:
+}
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  table-layout: fixed;
+  text-align: center;
+  font-family: 'Noto Serif JP';
+}
+table tr {
+  border: 1px solid #432;
+  padding: .35rem;
+}
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 1px solid #432;
+  height: 1px;
+}
+table th {
+  font-size: .85em;
+  background: rgba(95, 56, 48, 0.7);
+}
+.location-map {
+  width: 48%;
+}
+iframe {
+  width: 100%;
+}
+/*モバイル版*/
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+  .page-tittle {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+  }
+  /*header*/
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .main-nav li {
+    margin: 0 20px;
+    font-size: 0.5rem;
+  }
+  /*home*/
+  .home-content {
+    margin-top: 40%;
+  }
+  .home-content p {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .every {
+    margin: 100px 0 0 20px;
+    padding: 10px;
+    height: 0 auto;
+    width: 500px;
+  }
+  #news {
+    margin-bottom: 80px;
+  }
+  #news .page-title {
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 0;
+      margin-top: 40%;
+  }
+  .image1 {
+    height: auto;
+    max-width: 80%;
+    padding: 50px 0 20px 0;
+  }
+  .line1 {
+    height: 750px;
+  }
+  .line1 p {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+  h4 {
+   padding-top: 80px;
+ }
+ .item img {
+   height: auto;
+   max-width: 80%;
+   margin-left: 50px;
+   padding: 50px 0 0 0;
+ }
+  .item2 img {
+    height: auto;
+    max-width: 80%;
+    margin-left: 50px;
+    padding: 50px 0 0 0;
+ }
+ .grid {
+   grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+}
+#visit .page-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+    margin-top: 40%;
+  }
+#visit .image1 {
+    height: auto;
+    max-width: 80%;
+    padding: 0;
+  }
+  .flow P {
+    padding: 0 0 10px 0;
+  }
+  .flow .come {
+    padding: 50px 0 0 0px;
+  }
+#contact .page-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+    margin-top: 40%;
+  }
+#location .lo-wrapper {
+  flex-direction: column;
+  height: 1000px;
+}
+.location-info {
+  width: 100%;
+  padding: 20px 0 10px 10px;
+}
+.location-info,.location-map {
+  width: 100%;
+}
+section {
+  height: 1190px;
+}
+}

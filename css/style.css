@@ -71,6 +71,7 @@ span {
   font-size: 5rem;
   font-weight: normal;
   padding-top: 250px;
+  margin: 0;
 }
 .big-bg {
   background-size: cover;

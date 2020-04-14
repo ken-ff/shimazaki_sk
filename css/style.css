@@ -176,6 +176,7 @@ dt {
 dd {
   display: block;
   font-family: 'Noto Serif JP';
+  margin 0;
 }
 .toku span {
   border-bottom: 5px dotted #a6ce39;
